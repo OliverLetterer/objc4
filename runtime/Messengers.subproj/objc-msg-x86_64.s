@@ -644,7 +644,6 @@ LGetIsaSlow:
 .else
 	testq	%a2, %a2
 .endif
-	PN
 	jz	LNilTestSlow_f
 .endmacro
 
